@@ -10,7 +10,7 @@ body {
 }
 
 div.start {
-    background-image: url("/images/my_pic.jpg");
+    background-image: url("images/my_pic.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
