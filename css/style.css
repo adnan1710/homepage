@@ -101,11 +101,16 @@ h1 {
     color: red;
 }
 
-hr {
+hr.styled {
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color: black;
     border-top-width: 10px;
     width: 7%;
     padding-bottom: 7px;
+}
+
+hr.end {
+    background-color: black;
+    width: 30%;
 }
