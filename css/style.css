@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: #FEFFFB;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -7,6 +7,7 @@ body {
     color: black;
     margin: 0%;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.start {
@@ -15,8 +16,11 @@ div.start {
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
-    height: 390px;
     padding-top: 160px;
+}
+
+div.top {
+    height: 380px;
 }
 
 h1.start {
@@ -51,6 +55,10 @@ div.skills {
     background-attachment: fixed;
     background-position: top;
     color: white;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 td.para {
@@ -110,7 +118,7 @@ hr.styled {
     padding-bottom: 7px;
 }
 
-hr.end {
+hr.normal {
     background-color: black;
     width: 30%;
 }
